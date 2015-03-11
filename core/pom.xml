@@ -77,7 +77,8 @@
 							org.apache.ftpserver.usermanager;version=${project.version},
 							org.apache.ftpserver.usermanager.impl;version=${project.version},
 							org.apache.ftpserver.impl;version=${project.version},
-							org.apache.ftpserver.command.impl;version=${project.version}
+							org.apache.ftpserver.command.impl;version=${project.version},
+							org.apache.ftpserver.command.impl.listing;version=${project.version}
 						</Export-Package>
  						<Import-Package>
 							org.springframework.beans.factory.config;resolution:=optional;version="2.5",
